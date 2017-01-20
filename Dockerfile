@@ -19,7 +19,7 @@ ENV GPG_KEY 8417157EDBE73D9EAC1E539B126EB563A74B06BF
 ENV PYTHON_VERSION 2.6.9
 
 # if this is called "PIP_VERSION", pip explodes with "ValueError: invalid truth value '<VERSION>'"
-ENV PYTHON_PIP_VERSION 8.1.2
+ENV PYTHON_PIP_VERSION 9.0.1
 
 COPY python-2.6-internal-expat.patch /python-2.6-internal-expat.patch
 COPY python-2.6-posix-module.patch /python-2.6-posix-module.patch
